@@ -1,1 +1,1 @@
-# A E-Commerce Website Design by HTML, CSS & JS
+# An E-Commerce Website Design by HTML, CSS & JS
