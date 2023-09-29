@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> E-Commerce_webtite Demo </title>
+
+    <!-- link css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font awesomr cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+</head>
+<body>
+    
+    <section id="header">
+        <a href="#"><img height="40px" width="100px" src="img/logoo.jpg" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html"> Home </a></li>
+                <li><a href="shop.html"> Shop </a></li>
+                <li><a href="blog.html"> Blog </a></li>
+                <li><a href="about.html"> About </a></li>
+                <li><a href="contact.html"> Contact </a></li>
+                <li id="lg-bag"><a href="cart.html"> <i class="fa-solid fa-bag-shopping"></i> </a></li>
+                <a href="#" id="close"><i class="fa fa-times"></i></a>
+
+                <div class="searchContainer">
+                    <form>
+                        <i class="fas fa-search"></i>
+                        <input type="text" id="searchbar-item" placeholder="Search Products" onkeyup="searchbar()">
+                    </form>
+                </div>
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <a href="cart.html"> <i class="fa-solid fa-bag-shopping"></i> </a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+
+    <section id="hero">
+        <h4>Dhamakaadarr-Offer</h4>
+        <h2>Valuable Deals</h2>
+        <h1>On All products</h1>
+        <p>Save more with cuppons & upto 70% off!</p>
+        <button>Shop NOW</button>
+    </section>
+
+
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="img/feature/f1.jpg" alt="">
+            <h6>Free Shiping</h6>
+        </div>
+
+        <div class="fe-box">
+            <img src="img/feature/f2.jpg" alt="">
+            <h6>Online Order</h6>
+        </div>
+
+        <div class="fe-box">
+            <img src="img/feature/f3.jpg" alt="">
+            <h6>Save Money</h6>
+        </div>
+
+        <div class="fe-box">
+            <img src="img/feature/f4.jpg" alt="">
+            <h6>Promotions</h6>
+        </div>
+
+        <div class="fe-box">
+            <img src="img/feature/f5.jpg" alt="">
+            <h6>Happy Sell</h6>
+        </div>
+
+        <div class="fe-box">
+            <img src="img/feature/f6.jpg" alt="">
+            <h6>24/7 Support</h6>
+        </div>
+    </section>
+
+
+    <section id="product1" class="section-p1">
+        <h2>Featured Product</h2>
+        <p>The collection of new modern design!</p>
+
+        <div class="pro-container">
+            <div class="pro" onclick="window.location.href='sProduct.html';">
+                <img src="img/products/p1.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Astronaut Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$44</h4>
+                </div>
+                <a href="#"><i class="cart fa-solid fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="img/products/p2.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Astronaut Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$44</h4>
+                </div>
+                <a href="#"><i class="cart fa-solid fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="img/products/p3.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Astronaut Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$44</h4>
+                </div>
+                <a href="#"><i class="cart fa-solid fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="img/products/p4.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Astronaut Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$44</h4>
+                </div>
+                <a href="#"><i class="cart fa-solid fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="img/products/p5.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Astronaut Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$44</h4>
+                </div>
+                <a href="#"><i class="cart fa-solid fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="img/products/p6.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Astronaut Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$44</h4>
+                </div>
+                <a href="#"><i class="cart fa-solid fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="img/products/p7.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Astronaut Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$44</h4>
+                </div>
+                <a href="#"><i class="cart fa-solid fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="img/products/p8.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Astronaut Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$44</h4>
+                </div>
+                <a href="#"><i class="cart fa-solid fa-shopping-cart"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="banner" class="section-m1">
+        <h4>Repairing!!</h4>
+        <h2>UP to <span>60% OFF</span> in all Products!!</h2>
+        <button class="normal">Explore More</button>
+
+
+    </section>
+
+
+    <section id="product1" class="section-p1">
+        <h2>UP-Coming!!</h2>
+        <p>Ordinary Collection!</p>
+
+        <div class="pro-container">
+            <div class="pro">
+                <img src="img/products/p9.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Astronaut Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$44</h4>
+                </div>
+                <a href="#"><i class="cart fa-solid fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="img/products/p10.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Astronaut Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$44</h4>
+                </div>
+                <a href="#"><i class="cart fa-solid fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="img/products/p11.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Astronaut Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$44</h4>
+                </div>
+                <a href="#"><i class="cart fa-solid fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="img/products/p12.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Astronaut Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$44</h4>
+                </div>
+                <a href="#"><i class="cart fa-solid fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="img/products/p13.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Astronaut Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$44</h4>
+                </div>
+                <a href="#"><i class="cart fa-solid fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="img/products/p14.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Astronaut Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$44</h4>
+                </div>
+                <a href="#"><i class="cart fa-solid fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="img/products/p15.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Astronaut Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$44</h4>
+                </div>
+                <a href="#"><i class="cart fa-solid fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="img/products/p16.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Astronaut Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$44</h4>
+                </div>
+                <a href="#"><i class="cart fa-solid fa-shopping-cart"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="sm-banner" class="section-p1">
+        <div class="banner-box">
+            <h4>Crazy deals</h4>
+            <h2>"Buy-1 Get-1"</h2>
+            <span>The best classic dress is on sale here.</span>
+            <button class="white">Learn More</button>
+        </div>
+
+        <div class="banner-box banner-box-2">
+            <h4>Summer To Winter</h4>
+            <h2>Upcoming</h2>
+            <span>The best classic dress is on sale here.</span>
+            <button class="white">Collection</button>
+        </div>
+    </section>
+
+
+    <section id="banner-3">
+        <div class="banner-box">
+            <h2>Seasonal Sale</h2>
+            <h3>Winter collection -60% off!!</h3>
+        </div>
+
+        <div class="banner-box banner-box-2">
+            <h2>Collections</h2>
+            <h3>Winter/Summer 2022!!</h3>
+        </div>
+
+        <div class="banner-box banner-box-3">
+            <h2>T-shirts</h2>
+            <h3>Winter collection 60% off!!</h3>
+        </div>
+    </section>
+
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h2>Sign UP</h2>
+            <p>Get updates about us & <span>our special offer!</span></p>
+        </div>
+
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logoo.jpg" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong>"......................."</p>
+            <p><strong>Phone:</strong>"......................."</p>
+            <p><strong>Email:</strong>"......................."</p>
+            <p><strong>Hours:</strong>"......................."</p>
+
+            <div class="follow">
+                <h4>Follow Us</h4>
+
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy & Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+
+            <a href="#">Sign In</a>
+            <a href="#">Cart</a>
+            <a href="#">Wishlist</a>
+            <a href="#">Track Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+
+            <div class="row">
+                <img src="img/app.svg" alt="">
+                <img src="img/play.svg" alt="">
+            </div>
+            <p>Secured Payments Gatewasys</p>
+            <img src="img/pay.jpg" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>@ 2022. Mahfuz Twoha-Ecommerce Template</p>
+        </div>
+    </footer>
+
+
+
+    
+    <!-- link javascript -->
+    <script src="./script.js"></script>
+</body>
+</html>
